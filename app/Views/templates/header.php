@@ -18,7 +18,7 @@
         <header>
             <div id="root-nav">
                 <nav id="desktop-nav">
-                    <img src="/assets/img/logo-transparent.png" alt="logo devaron">
+                    <a href=""><img src="/assets/img/logo-transparent.png" alt="logo devaron"></a>
                     <ul id="desktop-navlink">
                         <li><a href="/">Accueil</a></li>
                         <li><a href="">Nous rejoindre</a></li>

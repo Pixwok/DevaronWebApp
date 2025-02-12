@@ -18,7 +18,7 @@ a, a:visited {
   text-decoration: none;
 }
 
-a:hover {
+a:hover, a:active, a:focus {
   color: #E9C46A;
 }
 /*NAV*/
@@ -45,4 +45,54 @@ a:hover {
 }
 #mobile-nav {
   display: none;
+}
+
+@media (max-width: 750px) {
+  #mobile-nav {
+    display: block;
+    margin: 12px;
+  }
+  #desktop-nav {
+    display: none;
+  }
+  /*Burger nav*/
+  #burger-btn {
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    cursor: pointer;
+  }
+  .bar {
+    height: 5px;
+    width: 35px;
+    transition: all 0.3s ease-in-out;
+    background-color: #F4F3F1;
+  }
+  /*Burger nav transform*/
+  #burger-btn.open .bar:nth-child(1) {
+    transform: translateY(11.6px) rotate(45deg);
+  }
+  #burger-btn.open .bar:nth-child(2) {
+    opacity: 0;
+  }
+  #burger-btn.open .bar:nth-child(3) {
+    transform: translateY(-11.6px) rotate(-45deg);
+  }
+  /*Mobile NAvlink*/
+  #mobile-navlink {
+    display: none;
+  }
+  #mobile-navlink li {
+    margin: 12px 0;
+  }
+  #mobile-navlink.open {
+    display: block;
+    border-radius: 5px;
+    background-color: #2A2822;
+    padding: 12px;
+    position: absolute;
+    width: 90%;
+    top: 56px;
+  }
 }
