@@ -21,14 +21,21 @@ a, a:visited {
 a:hover, a:active, a:focus {
   color: #E9C46A;
 }
-/*NAV*/
-#root-nav {
-  height: 75px;
+h1,h2,h3,h4 {
+  font-weight: 700;
 }
+h2 {
+  font-size: 3.2rem;
+}
+.subtext {
+  color: #989281;
+}
+/*NAV*/
 #desktop-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 12px 0;
 }
 #desktop-nav img {
   height: 50px;
@@ -45,6 +52,38 @@ a:hover, a:active, a:focus {
 }
 #mobile-nav {
   display: none;
+}
+
+/*Banner*/
+#banner {
+  background-image: url('/assets/img/banierre-devaron-v2.webp');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#banner h1 {
+  text-align: center;
+  font-size: 5.6rem;
+  letter-spacing: .6rem;
+}
+/*PAge content*/
+.page-content {
+  width: 80%;
+  margin: 60px auto;
+}
+/*Footer*/
+.root-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  border-top: solid 1px #625E50;
+  margin-top: 24px;
 }
 
 @media (max-width: 750px) {

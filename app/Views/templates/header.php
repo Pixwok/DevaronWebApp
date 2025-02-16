@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/assets/img/devaron.ico" type="image/x-icon">
         <!--FONT-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,13 +13,13 @@
         <link rel="stylesheet" href="/assets/css/style.css">
         <!--JS-->
         <script type="module" src="/assets/js/nav.js"></script>
-        <title>Devaron.fr | Serveur Vanilla</title>
+        <title>Devaron.fr | Serveur Minecraft Vanilla</title>
     </head>
     <body>
         <header>
             <div id="root-nav">
                 <nav id="desktop-nav">
-                    <a href=""><img src="/assets/img/logo-transparent.png" alt="logo devaron"></a>
+                    <a href=""><img src="/assets/img/devaron-logo.png" alt="logo devaron"></a>
                     <ul id="desktop-navlink">
                         <li><a href="/">Accueil</a></li>
                         <li><a href="">Nous rejoindre</a></li>
