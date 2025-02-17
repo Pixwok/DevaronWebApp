@@ -76,6 +76,12 @@ h2 {
   width: 80%;
   margin: 60px auto;
 }
+.info-box {
+  background-color: #2A2822;
+  width: 300px;
+  padding: 12px;
+  box-shadow: 0px 0px 10px #464339;
+}
 /*Dynmap*/
 .dynmap-player {
   width: 100%;
