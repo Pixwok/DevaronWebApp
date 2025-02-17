@@ -10,4 +10,10 @@ class PublicPages extends BaseController
             .view('home')
             .view('templates/footer');
     }
+
+    public function dynmap(): string
+    {
+        return view('templates/header')
+            .view('dynmap');
+    }
 }
