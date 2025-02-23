@@ -13,7 +13,7 @@ class PublicPages extends BaseController
         $APIResult = $mcstatus->requestAPI('mc.devaron.fr');
 
         $data = [
-            'status' => $APIResult->online ? 'Online': 'Offline',
+            'status' => $APIResult->online ? "<span id='online'>Online</span>": "<span id='offline'>Offline</span>",
             'version' => $APIResult->version,
             'maxPlayers' => $APIResult->players->max,
             'onlinePlayers' => $APIResult->players->online,
