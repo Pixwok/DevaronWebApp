@@ -11,15 +11,18 @@ class MCStatus extends Model
      */
     public function requestAPI($serverAddr)
     {
+        $curl = \Config\Services::curlrequest();
         $api = "https://api.mcsrvstat.us/3/". $serverAddr;
 
-        $curl = curl_init();
-        curl_setopt($curl, CURLOPT_URL, $api);
-        curl_setopt($curl, CURLOPT_USERAGENT, 'Mozilla/5.0');
+        $response = $curl->request('GET', $api, [
+            'headers' => [
+                'User-Agent' => 'testing/1.0',
+                'Accept'     => 'application/json'],
+            ]
+        );
+        $data = $response->getBody();
 
-        $response = curl_exec($curl);
-
-        return $response;
+        return json_decode($data);
     }
 }
 ?>

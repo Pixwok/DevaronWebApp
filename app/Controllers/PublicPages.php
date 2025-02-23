@@ -10,8 +10,13 @@ class PublicPages extends BaseController
     {
         $mcstatus = new MCStatus();
 
+        $APIResult = $mcstatus->requestAPI('mc.devaron.fr');
+
         $data = [
-            '$mcstatus' => $mcstatus->requestAPI('mc.devaron.fr')
+            'status' => $APIResult->online,
+            'version' => $APIResult->version,
+            'maxPlayers' => $APIResult->players->max,
+            'onlinePlayers' => $APIResult->players->online,
         ];
 
         return view('templates/header') 
