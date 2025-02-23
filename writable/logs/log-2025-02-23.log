@@ -1,0 +1,37 @@
+CRITICAL - 2025-02-23 08:37:34 --> Error: Class "App\Models\MCstatus" not found
+[Method: GET, Route: /]
+in APPPATH/Controllers/PublicPages.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PublicPages->index()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-23 08:38:07 --> Error: Class "App\Models\MCstatus" not found
+[Method: GET, Route: /]
+in APPPATH/Controllers/PublicPages.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PublicPages->index()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-23 08:38:11 --> Error: Class "App\Models\MCstatus" not found
+[Method: GET, Route: /]
+in APPPATH/Controllers/PublicPages.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PublicPages->index()
+ 2 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2025-02-23 08:38:26 --> TypeError: Unsupported operand types: string + string
+[Method: GET, Route: /]
+in APPPATH/Models/MCStatus.php on line 14.
+ 1 APPPATH/Controllers/PublicPages.php(14): App\Models\MCStatus->requestAPI()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\PublicPages->index()
+ 3 SYSTEMPATH/CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest()
+ 5 SYSTEMPATH/Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb()
