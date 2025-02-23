@@ -22,7 +22,7 @@
                     <a href="/"><img src="/assets/img/devaron-logo.png" alt="logo devaron"></a>
                     <ul id="desktop-navlink">
                         <li><a href="/">Accueil</a></li>
-                        <li><a href="">Nous rejoindre</a></li>
+                        <li><a href="/join">Nous rejoindre</a></li>
                         <li><a href="/dynmap">Dynmap</a></li>
                         <li><a href="">Statistiques</a></li>
                     </ul>
@@ -36,7 +36,7 @@
                     </div>
                     <ul id="mobile-navlink">
                         <li><a href="/">Accueil</a></li>
-                        <li><a href="">Nous rejoindre</a></li>
+                        <li><a href="/join">Nous rejoindre</a></li>
                         <li><a href="/dynmap">Dynmap</a></li>
                         <li><a href="">Statistiques</a></li>
                     </ul>

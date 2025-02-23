@@ -24,6 +24,12 @@ class PublicPages extends BaseController
             .view('templates/footer');
     }
 
+    public function join(): string
+    {
+        return view('templates/header') 
+            .view('join')
+            .view('templates/footer');
+    }
     public function dynmap(): string
     {
         return view('templates/header')

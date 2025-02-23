@@ -24,6 +24,9 @@ a:hover, a:active, a:focus {
 h1,h2,h3,h4 {
   font-weight: 700;
 }
+h1 {
+  font-size: 4.8rem;
+}
 h2 {
   font-size: 3.2rem;
 }
@@ -96,6 +99,12 @@ strong {
   width: 300px;
   padding: 12px;
   box-shadow: 0px 0px 10px #464339;
+}
+/*JOIN*/
+.rules-list {
+  list-style: disc;
+  margin-left: 2.4rem;
+  line-height: 2.4rem;
 }
 /*Dynmap*/
 .dynmap-player {
