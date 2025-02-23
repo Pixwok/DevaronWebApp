@@ -1,5 +1,6 @@
 <div id="banner">
     <h1>Devaron</h1>
+    <p><?=$status?> | <?=$version?></p>
 </div>
 
 <main class="page-content">

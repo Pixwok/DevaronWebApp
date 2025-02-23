@@ -27,6 +27,9 @@ h1,h2,h3,h4 {
 h2 {
   font-size: 3.2rem;
 }
+strong {
+  font-weight: 700;
+}
 .subtext {
   color: #989281;
 }
