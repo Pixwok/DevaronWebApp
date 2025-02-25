@@ -30,6 +30,9 @@ h1 {
 h2 {
   font-size: 3.2rem;
 }
+p {
+  line-height: 2.4rem;
+}
 strong {
   font-weight: 700;
 }
@@ -104,6 +107,7 @@ strong {
   grid-template-rows: 1fr;
   grid-column-gap: 32px;
   grid-row-gap: 0px;
+  margin: 24px 0;
 }
 .image-section {
   width: 100%;

@@ -21,12 +21,22 @@
             </div>
         </section>
         <section class="info-box">
-            <h3>Vanilla</h3>
-            <p>Nous offrons une véritable survie vanilla, sans aucune modification du jeux de base. Aucun plugin ou mod inutile sont installés sur le serveur. Rien de tel qu'une survie classique mais en multijoueur.</p>
+            <div>
+                <h3>Vanilla</h3>
+                <p>Nous offrons une véritable survie vanilla, sans aucune modification du jeux de base. Aucun plugin ou mod inutile sont installés sur le serveur. Rien de tel qu'une survie classique mais en multijoueur.</p>
+            </div>
+            <div>
+                <img class="image-section" src="/assets/img/spawn.webp" alt="Pourquoi Devaron">
+            </div>
         </section>
         <section class="info-box">
-            <h3>Communauté</h3>
-            <p>Devaron est une communauté de joueurs qui se retrouvent autour d'une passion commune le jeux vidéo et plus particulièrement Minecraft.</p>
+            <div>
+                <img class="image-section" src="/assets/img/spawn.webp" alt="Pourquoi Devaron">
+            </div>
+            <div>
+                <h3>Communauté</h3>
+                <p>Devaron est une communauté de joueurs qui se retrouvent autour d'une passion commune le jeux vidéo et plus particulièrement Minecraft.</p>
+            </div>
         </section>
     </div>
 </main>
