@@ -2,9 +2,27 @@
     --bs-body-bg: #1C1B17;
     --bs-body-font-family: 'Poppins', arial, sans-serif;
     --bs-body-color: #FFF;
-    
+
 }
 .navbar {
     --bs-navbar-brand-color: #E9C46A;
-
+    --bs-navbar-color: #CED4DA;
+    --bs-navbar-hover-color: #E9C46A;
+    --bs-navbar-active-color: #E9C46A;
+}
+.navbar-brand {
+    font-weight: 700;
+}
+.navbar-nav {
+    --bs-nav-link-font-weight: 500;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+#header-home {
+    background-image: url('/assets/img/banierre-devaron-v2.webp');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    height: 500px;
 }

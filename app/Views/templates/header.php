@@ -17,7 +17,7 @@
     </head>
     <body>
         <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
+            <div class="container-lg">
                 <a class="navbar-brand" href="#">Devaron</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -25,16 +25,16 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                    <a class="nav-link active" aria-current="page" href="/">Accueil</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Nous Rejoindre</a>
+                    <a class="nav-link" href="/join">Nous Rejoindre</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Dynmap</a>
+                    <a class="nav-link" href="/dynmap">Dynmap</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link">Statistiques</a>
+                    <a class="nav-link" href="#">Statistiques</a>
                     </li>
                 </ul>
                 </div>
