@@ -26,3 +26,8 @@
     background-size: cover;
     height: 500px;
 }
+.btn-primary {
+    --bs-btn-color: #212529;
+    --bs-btn-bg: #E9C46A;
+    --bs-btn-border-color: #E9C46A;
+}
