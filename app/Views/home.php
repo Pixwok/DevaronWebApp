@@ -1,10 +1,6 @@
-<header id="header-home" class="container-fluid text-center">
-    <div class="row align-items-center">
-        <div class="col">
-            <h2>Devaron</h2>
-            <h1>Serveur Minecraft 100% Vanilla</h1>
-        </div>
-    </div>    
+<header id="header-home" class="container-fluid text-center d-flex flex-column justify-content-center">
+    <h2>Devaron</h2>
+    <h1>Serveur Minecraft 100% Vanilla</h1>
 </header>
 
 <main class="container-lg">
@@ -13,10 +9,10 @@
             <h2>Bienvenue sur Devaron</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam  pulvinar vitae nunc vel condimentum. Morbi vulputate a ligula vitae  lacinia. Sed aliquam quam sed nisl mollis, pellentesque sodales felis  sodales. Curabitur blandit tortor dignissim, consequat nulla vitae,  aliquet nisl. Donec eu enim in magna sollicitudin sodales in id lorem.  Integer velit augue, pellentesque sit amet facilisis non, eleifend non  lectus.</p>
         </div>
-        <div class="col">
-            <span class="my-3"><?=$status?></span>
-            <span class="my-3"><?=$onlinePlayers?> joueurs en ligne</span>
-            <a class="btn btn-primary my-3" href="#">Nous rejoindre</a>
+        <div class="col-4 offset-md-2 d-flex flex-column">
+            <?=$status?>
+            <span class="my-1"><?=$onlinePlayers?> joueurs en ligne</span>
+            <a class="btn btn-primary my-4 align-self-start" href="#">Nous rejoindre</a>
         </div>
     </div>
     <div class="row info-box">
