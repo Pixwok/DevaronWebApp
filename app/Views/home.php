@@ -12,7 +12,7 @@
         <div class="col-4 offset-md-2 d-flex flex-column">
             <?=$status?>
             <span class="my-1"><?=$onlinePlayers?> joueurs en ligne</span>
-            <a class="btn btn-primary my-4 align-self-start" href="#">Nous rejoindre</a>
+            <a class="btn btn-primary my-4 align-self-start fw-semibold" href="#">Nous rejoindre</a>
         </div>
     </div>
     <div class="row info-box">
