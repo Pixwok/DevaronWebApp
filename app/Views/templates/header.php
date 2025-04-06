@@ -18,7 +18,7 @@
     <body>
         <nav class="navbar navbar-expand-lg">
             <div class="container-lg">
-                <a class="navbar-brand" href="#">Devaron</a>
+                <a class="navbar-brand" href="/">Devaron</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -34,7 +34,7 @@
                     <a class="nav-link" href="/dynmap">Dynmap</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Statistiques</a>
+                    <a class="nav-link" href="https://stats.devaron.fr/" target="_blank">Statistiques</a>
                     </li>
                 </ul>
                 </div>
