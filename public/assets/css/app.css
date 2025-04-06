@@ -4,6 +4,9 @@
     --bs-body-color: #FFF;
 
 }
+h1,h2,h3 {
+    font-weight: 700;
+}
 .navbar {
     --bs-navbar-brand-color: #E9C46A;
     --bs-navbar-color: #CED4DA;
@@ -30,4 +33,18 @@
     --bs-btn-color: #212529;
     --bs-btn-bg: #E9C46A;
     --bs-btn-border-color: #E9C46A;
+}
+.card {
+    --bs-card-border-color: #54595E;
+    --bs-card-bg: #2A2822;
+}
+.info-box {
+    margin-top: 4rem;
+    margin-bottom: 7rem;
+}
+.border-secondary-subtle {
+    --bs-secondary-border-subtle: #989281
+}
+.footer-text {
+    color: #989281;
 }
