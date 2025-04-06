@@ -39,10 +39,12 @@ h1,h2,h3 {
 }
 .info-box {
     margin-top: 4rem;
-    margin-bottom: 7rem;
 }
 .border-secondary-subtle {
     --bs-secondary-border-subtle: #989281
+}
+.footer-page {
+    margin-top: 7rem;
 }
 .footer-text {
     color: #989281;
