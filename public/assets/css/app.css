@@ -2,15 +2,21 @@
     --bs-body-bg: #1C1B17;
     --bs-body-font-family: 'Poppins', arial, sans-serif;
     --bs-body-color: #FFF;
+    --bs-primary: #E9C46A;
+    --bs-link-hover-color: #E9C46A;
 }
 h1,h2,h3 {
     font-weight: 700;
 }
 .navbar {
-    --bs-navbar-brand-color: #E9C46A;
+    --bs-navbar-brand-color: var(--bs-primary);
     --bs-navbar-color: #CED4DA;
-    --bs-navbar-hover-color: #E9C46A;
-    --bs-navbar-active-color: #E9C46A;
+    --bs-navbar-hover-color: var(--bs-primary);
+    --bs-navbar-active-color: var(--bs-primary);
+    --bs-navbar-focus-color: var(--bs-primary);
+    --bs-navbar-brand-hover-color: var(--bs-primary);
+    --bs-navbar-brand-active-color: var(--bs-primary);
+    --bs-navbar-brand-focus-color: var(--bs-primary);
 }
 .navbar-brand {
     font-weight: 700;
@@ -20,6 +26,12 @@ h1,h2,h3 {
 }
 .navbar-collapse {
     justify-content: flex-end;
+}
+.navbar-toggler {
+    border: none;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
 }
 #header-home {
     background-image: url('/assets/img/banierre-devaron-v2.webp');
@@ -37,8 +49,10 @@ h1,h2,h3 {
 }
 .btn-primary {
     --bs-btn-color: #212529;
-    --bs-btn-bg: #E9C46A;
-    --bs-btn-border-color: #E9C46A;
+    --bs-btn-bg: var(--bs-primary);
+    --bs-btn-hover-bg: #AB3428;
+    --bs-btn-border-color: var(--bs-primary);
+    --bs-btn-hover-border-color: #AB3428;
 }
 .card {
     --bs-card-border-color: #54595E;
