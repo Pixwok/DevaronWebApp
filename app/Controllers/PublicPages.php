@@ -4,8 +4,16 @@ namespace App\Controllers;
 
 use App\Models\MCStatus;
 
+
 class PublicPages extends BaseController
 {
+    protected $uri;
+
+    public function __construct()
+    {
+        $this->uri = service('uri');
+    }
+
     public function index(): string
     {
         $mcstatus = new MCStatus();
@@ -16,6 +24,7 @@ class PublicPages extends BaseController
             'version' => $APIResult->version,
             'maxPlayers' => $APIResult->players->max,
             'onlinePlayers' => $APIResult->players->online,
+            'currentPage' => $this->uri->getSegment(1),
         ];*/
 
         $data = [
@@ -25,20 +34,30 @@ class PublicPages extends BaseController
             'onlinePlayers' => "0",
         ];
 
-        return view('templates/header') 
+        $currentPage = [
+            'page' => $this->uri->getSegment(1)
+        ];
+
+        return view('templates/header', $currentPage) 
             .view('home', $data)
             .view('templates/footer');
     }
 
     public function join(): string
     {
-        return view('templates/header') 
+        $currentPage = [
+            'page' => $this->uri->getSegment(1)
+        ];
+        return view('templates/header', $currentPage) 
             .view('join')
             .view('templates/footer');
     }
     public function dynmap(): string
     {
-        return view('templates/header')
+        $currentPage = [
+            'page' => $this->uri->getSegment(1)
+        ];
+        return view('templates/header', $currentPage)
             .view('dynmap');
     }
 }
