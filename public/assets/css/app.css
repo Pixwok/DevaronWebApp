@@ -40,6 +40,9 @@ h1,h2,h3 {
     background-size: cover;
     height: 500px;
 }
+#header-home>h2 {
+    color: var(--bs-primary);
+}
 #header-join {
     background-image: url('/assets/img/banierre-devaron-v2.webp');
     background-repeat: no-repeat;
