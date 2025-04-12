@@ -18,21 +18,21 @@ class PublicPages extends BaseController
     {
         $mcstatus = new MCStatus();
 
-        /*$APIResult = $mcstatus->requestAPI('mc.devaron.fr:25574');
+        $APIResult = $mcstatus->requestAPI('mc.devaron.fr:25574');
         $data = [
             'status' => $APIResult->online ? "<span id='online' class='badge text-bg-success align-self-start'>Online</span>": "<span id='offline' class='badge text-bg-dange align-self-start'>Offline</span>",
             'version' => $APIResult->version,
             'maxPlayers' => $APIResult->players->max,
             'onlinePlayers' => $APIResult->players->online,
             'currentPage' => $this->uri->getSegment(1),
-        ];*/
+        ];
 
-        $data = [
+        /*$data = [
             'status' => "<span id='online' class='badge text-bg-success align-self-start'>Online</span>",
             'version' => "1.21.4",
             'maxPlayers' => "20",
             'onlinePlayers' => "0",
-        ];
+        ];*/
 
         $currentPage = [
             'page' => $this->uri->getSegment(1)
