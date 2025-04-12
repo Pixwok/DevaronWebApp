@@ -5,18 +5,18 @@
 
 <main class="container-lg">
     <div class="row align-items-center my-5">
-        <div class="col">
+        <div class="col-sm">
             <h2>Bienvenue sur Devaron</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam  pulvinar vitae nunc vel condimentum. Morbi vulputate a ligula vitae  lacinia. Sed aliquam quam sed nisl mollis, pellentesque sodales felis  sodales. Curabitur blandit tortor dignissim, consequat nulla vitae,  aliquet nisl. Donec eu enim in magna sollicitudin sodales in id lorem.  Integer velit augue, pellentesque sit amet facilisis non, eleifend non  lectus.</p>
         </div>
-        <div class="col-4 offset-md-2 d-flex flex-column">
+        <div class="col-sm-4 offset-md-2 d-flex flex-column">
             <?=$status?>
             <span class="my-1"><?=$onlinePlayers?> joueurs en ligne</span>
             <a class="btn btn-primary my-4 align-self-start fw-semibold" href="/join">Nous rejoindre</a>
         </div>
     </div>
     <div class="row info-box">
-        <div class="col">
+        <div class="col-md">
             <div class="card">
                 <div class="card-header fs-5 fw-semibold">
                     Vanilla
@@ -26,7 +26,7 @@
                 </div>
             </div>
         </div>
-        <div class="col">
+        <div class="col-md">
             <div class="card">
                 <div class="card-header fs-5 fw-semibold">
                     Communauté
@@ -37,7 +37,7 @@
                 </div>
             </div>
         </div>
-        <div class="col">
+        <div class="col-md">
             <div class="card">
                 <div class="card-header fs-5 fw-semibold">
                     No reset

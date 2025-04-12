@@ -23,7 +23,7 @@
         </div>
     </div>
     <div class="row my-3">
-        <div class="col">
+        <div class="col-md">
             <div class="card">
                 <div class="card-header fs-5 fw-semibold">
                     Prendre connaissance des règles
@@ -33,7 +33,7 @@
                 </div>
             </div>
         </div>
-        <div class="col">
+        <div class="col-md">
             <div class="card">
                 <div class="card-header fs-5 fw-semibold">
                     Candidature écrite
@@ -43,7 +43,7 @@
                 </div>
             </div>
         </div>
-        <div class="col">
+        <div class="col-md">
             <div class="card">
                 <div class="card-header fs-5 fw-semibold">
                     Bienvenue

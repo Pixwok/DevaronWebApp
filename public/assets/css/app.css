@@ -65,6 +65,7 @@ h1,h2,h3 {
 .card {
     --bs-card-border-color: #54595E;
     --bs-card-bg: #2A2822;
+    margin-bottom: 1rem;
 }
 .info-box {
     margin-top: 4rem;
