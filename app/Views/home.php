@@ -7,7 +7,7 @@
     <div class="row align-items-center my-5">
         <div class="col-sm">
             <h2>Bienvenue sur Devaron</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam  pulvinar vitae nunc vel condimentum. Morbi vulputate a ligula vitae  lacinia. Sed aliquam quam sed nisl mollis, pellentesque sodales felis  sodales. Curabitur blandit tortor dignissim, consequat nulla vitae,  aliquet nisl. Donec eu enim in magna sollicitudin sodales in id lorem.  Integer velit augue, pellentesque sit amet facilisis non, eleifend non  lectus.</p>
+            <p>Devaron est un serveur survie Minecraft 100% Vanilla ! Ici, aucune modification, aucun plugin — juste l’expérience Minecraft pure, telle que Mojang l’a conçue. Rejoignez une communauté passionnée, dans un monde survie collaboratif, où chaque construction et aventure est authentique. Tout le monde est le bienvenu !</p>
         </div>
         <div class="col-sm-4 offset-md-2 d-flex flex-column">
             <?=$status?>
