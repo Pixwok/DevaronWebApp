@@ -36,7 +36,7 @@
                     <a class="nav-link <?= $page == 'dynmap' ? 'active' : '' ?>" href="/dynmap">Dynmap</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="https://stats.devaron.fr/" target="_blank">Statistiques</a>
+                    <a class="nav-link" rel="noopener" href="https://stats.devaron.fr/" target="_blank">Statistiques</a>
                     </li>
                 </ul>
                 </div>
