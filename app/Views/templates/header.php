@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Serveur Minecraft survie 100% Vanilla">
         <link rel="shortcut icon" href="/assets/img/devaron.ico" type="image/x-icon">
         <!--FONT-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,7 +36,7 @@
                     <a class="nav-link <?= $page == 'dynmap' ? 'active' : '' ?>" href="/dynmap">Dynmap</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="https://stats.devaron.fr/" target="_blank">Statistiques</a>
+                    <a class="nav-link" rel="noopener" href="https://stats.devaron.fr/" target="_blank">Statistiques</a>
                     </li>
                 </ul>
                 </div>
