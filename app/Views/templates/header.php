@@ -13,8 +13,11 @@
         <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
         <link rel="stylesheet" href="/assets/css/app.css">
+        <!--Preload-->
+        <link rel="preload" fetchpriority="high" as="image" href="/assets/img/banierre-devaron-v2.webp" type="image/webp">
+        <link rel="preload" fetchpriority="high" as="image" href="/assets/img/banierre-join-devaron.webp" type="image/webp">
         <!--JS-->
-        <script type="module" src="/assets/js/bootstrap.bundle.min.js"></script>
+        <script type="module" src="/assets/js/bootstrap.bundle.min.js" async></script>
         <title>Devaron.fr | Serveur Minecraft Vanilla</title>
     </head>
     <body>

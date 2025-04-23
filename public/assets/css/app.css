@@ -49,7 +49,7 @@ h1,h2,h3 {
     color: var(--bs-primary);
 }
 #header-join {
-    background-image: url('/assets/img/banierre-devaron-v2.webp');
+    background-image: url('/assets/img/baniere-join-devaron.webp');
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
