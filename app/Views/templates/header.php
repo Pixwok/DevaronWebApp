@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Serveur Minecraft survie 100% Vanilla">
+        <meta name="description" content="Rejoignez Devaron, le serveur Minecraft 100% Vanilla. Profitez d'une survie pure, sans plugins et sans modification du jeu de base. Jouez dès maintenant !">
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <!--FONT-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
