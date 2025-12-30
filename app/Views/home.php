@@ -1,6 +1,7 @@
 <header id="header-home" class="container-fluid text-center d-flex flex-column justify-content-center">
     <h2>Devaron</h2>
     <h1>Serveur Minecraft 100% Vanilla</h1>
+    <h3><?=$version?></h3>
 </header>
 
 <main class="container-lg">
